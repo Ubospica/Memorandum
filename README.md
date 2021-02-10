@@ -1,0 +1,2 @@
+# Memorandum
+Learning notes
