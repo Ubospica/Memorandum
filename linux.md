@@ -25,3 +25,7 @@ d: min diff
 ### xxd
 show hex
 
+### close bell
+sudo vim /etc/inputrc
+#set bell-style none
+-> delete '#'

@@ -65,6 +65,10 @@ ate,binary always OK to use
 `f.write(reinterpret_cast<char*>(&x), sizeof(x))`
 `f.flush(), f.close()`
 
+### redirect
+ifstream ifs(name);
+cin.rdbuf(ifs.rdbuf());
+
 ### other
 check if empty:  
 `s.peek() != EOF` or  
@@ -76,3 +80,6 @@ boolalpha
 
 
 
+## debug
+1. a function returning const& shouldnt return a temportary value
+2. sync_with_stdio() should be used before all cin/cout operation
